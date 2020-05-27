@@ -4,6 +4,7 @@ from lxml import etree
 import random
 from fake_useragent import UserAgent
 from multiprocessing.dummy import Pool
+
 from time import sleep
 import time
 from concurrent.futures import ThreadPoolExecutor
