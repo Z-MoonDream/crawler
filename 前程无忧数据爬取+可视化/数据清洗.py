@@ -57,6 +57,6 @@ conn = create_engine('mysql+pymysql://root:@localhost:3306/前程无忧?charset=
 sql_df.to_sql('new_message_data',con=conn,index=False,if_exists='replace',dtype={'id':sqlalchemy.types.BigInteger()})
 
 with conn.connect() as con:
-    con.execute('alter table new_message_data add primary key (`id`);')
+    con.execute('alter table new_message_data add primary key (`id`)')
 
 
