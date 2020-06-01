@@ -108,7 +108,7 @@ if __name__ == '__main__':
     cursor = conn.cursor()
     lock = Lock()
     pool = Pool(30)
-    list_data = pool.map(get_request,produce('大数据',200))
+    list_data = pool.map(get_request,produce('大数据',500))
     pool.map(persistence,list_data)
     cursor.close()
     conn.close()

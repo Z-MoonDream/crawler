@@ -1,0 +1,35 @@
+selenium的弊端:
+    - 效率低
+    是真实模拟的浏览器请求爬虫可以1S发起20个请求但是你的selenium不可以
+    如果碰到实在解决不了的动态加载的数据就可以尝试用selenium来搞
+
+有的网站会检测请求是否为selenium发起的,如果是的话则让该次请求失败
+这样就不会请求到数据了
+
+如何让selenimu规避检测：
+    - selenium接管chrome浏览器
+实现步骤
+    - 1.必须将你的电脑中安装的谷歌浏览器的驱动程序所在的目录找到，且将目录添加到环境变量中
+    - 2.打开cmd，在命令行输入命令
+
+        - chrome.exe(你的驱动名字) -- remote-debugging-port=9222 --user-data-dir="一个空文件夹的目录"
+        - 指定执行结束后,会打开你本机安装好的谷歌浏览器 # 并没有成功没打开啊我日！！
+    - 3.执行如下代码: 可以使用下属代码接管步骤2打开的真实的浏览器实现规避检测
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+
+chrome_options = Options()
+chrome_options.add_experimental_option("debuggerAddress","127.0.0.1:9222")
+#本机安装好的谷歌驱动路径(要与添加的环境变量的那个驱动路径相同)
+chrome_driver = "E:\plus_len\练习\爬虫\selenium自动化"
+
+driver = webdriver.Chrome(executable_path=chrome_driver,chrome_options=chrome_options)
+print(driver.title)
+
+
+
+
+
+
+
+

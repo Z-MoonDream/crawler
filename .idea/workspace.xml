@@ -2,10 +2,130 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80717da2-7d85-42c5-a150-13a1f0730373" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/前程无忧数据爬取+可视化/数据可视化.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/Scrapy框架的使用.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/fbsPro/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/fbsPro/fbsPro/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/fbsPro/fbsPro/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/fbsPro/fbsPro/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/fbsPro/fbsPro/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/fbsPro/fbsPro/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/fbsPro/fbsPro/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/fbsPro/fbsPro/spiders/fbs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/fbsPro/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/firstBlood/firstBlood/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/firstBlood/firstBlood/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/firstBlood/firstBlood/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/firstBlood/firstBlood/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/firstBlood/firstBlood/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/firstBlood/firstBlood/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/firstBlood/firstBlood/spiders/first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/firstBlood/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/huyaAll/huyaAll/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/huyaAll/huyaAll/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/huyaAll/huyaAll/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/huyaAll/huyaAll/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/huyaAll/huyaAll/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/huyaAll/huyaAll/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/huyaAll/huyaAll/spiders/huya.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/huyaAll/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/huyaPro/huya.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/huyaPro/huyaPro/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/huyaPro/huyaPro/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/huyaPro/huyaPro/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/huyaPro/huyaPro/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/huyaPro/huyaPro/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/huyaPro/huyaPro/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/huyaPro/huyaPro/spiders/huya.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/huyaPro/huyazhibo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/huyaPro/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/imgPro/imgPro/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/imgPro/imgPro/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/imgPro/imgPro/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/imgPro/imgPro/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/imgPro/imgPro/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/imgPro/imgPro/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/imgPro/imgPro/spiders/img.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/imgPro/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/midllePro/ip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/midllePro/midllePro/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/midllePro/midllePro/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/midllePro/midllePro/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/midllePro/midllePro/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/midllePro/midllePro/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/midllePro/midllePro/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/midllePro/midllePro/spiders/middle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/midllePro/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/moviePro/moviePro/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/moviePro/moviePro/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/moviePro/moviePro/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/moviePro/moviePro/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/moviePro/moviePro/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/moviePro/moviePro/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/moviePro/moviePro/spiders/movie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/moviePro/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/sunCrawlPro/40.8.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/sunCrawlPro/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/sunCrawlPro/sunCrawlPro/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/sunCrawlPro/sunCrawlPro/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/sunCrawlPro/sunCrawlPro/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/sunCrawlPro/sunCrawlPro/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/sunCrawlPro/sunCrawlPro/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/sunCrawlPro/sunCrawlPro/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/sunCrawlPro/sunCrawlPro/spiders/sun.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/wangyiPro/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/wangyiPro/wangyiPro/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/wangyiPro/wangyiPro/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/wangyiPro/wangyiPro/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/wangyiPro/wangyiPro/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/wangyiPro/wangyiPro/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/wangyiPro/wangyiPro/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/wangyiPro/wangyiPro/spiders/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapy框架练习/wangyiPro/wangyiPro/spiders/wangyi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium自动化/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium自动化/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium自动化/reademe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium自动化/selenium捕获cookie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium自动化/selenium接管chrom浏览器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium自动化/动作链ActionChains.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium自动化/数据清洗.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium自动化/无头/baidu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium自动化/无头/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium自动化/无头/reademe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium自动化/无头/谷歌无头浏览器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium自动化/爬取QQ空间相关信息(谁写的QQ空间？NB啊).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium自动化/自动打开京东搜索后将滚轮滑到屏幕最底部.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium自动化/自动打开百度搜索图片并点击第一个.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium自动化/药监总局的数据(自动化破解动态数据).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习小例子/openpyxl讲解.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习小例子/text.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习小例子/xpath爬取彼岸图网图片.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习小例子/反爬机制破解.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习小例子/检测12306余票信息.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习小例子/模拟12306登录/12306.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习小例子/模拟12306登录/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习小例子/模拟12306登录/code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习小例子/模拟12306登录/模拟12306登录.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习小例子/爬取BOSS直聘.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习小例子/爬取妹子网.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习小例子/爬取梨视频中的短视频数据.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习小例子/爬取站长素材免费简历模板.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习小例子/爬取美桌.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习小例子/爬取肯德基北京餐厅位置信息.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习小例子/爬取药监总局中的企业详情数据.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习小例子/爬取豆瓣电影.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习小例子/爬取豆瓣电影TOP250.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习小例子/爬取雪球网咨询(要cookie).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习小例子/爬虫爬取豆瓣租房信息.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习小例子/练习.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习小例子/超级鹰验证码识别/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习小例子/超级鹰验证码识别/chaojiying.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/response.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/前程无忧数据爬取+可视化/数据清洗.py" beforeDir="false" afterPath="$PROJECT_DIR$/前程无忧数据爬取+可视化/数据清洗.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/前程无忧数据爬取+可视化/爬取数据+持久化.py" beforeDir="false" afterPath="$PROJECT_DIR$/前程无忧数据爬取+可视化/爬取数据+持久化.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/单线程+多任务的异步爬虫.py" beforeDir="false" afterPath="$PROJECT_DIR$/单线程+多任务的异步爬虫.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,15 +134,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/前程无忧数据爬取+可视化/爬取数据+持久化.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="28" column="93" selection-start-line="28" selection-start-column="93" selection-end-line="28" selection-end-column="93" />
+            <state relative-caret-position="363">
+              <caret line="110" column="49" selection-start-line="110" selection-start-column="46" selection-end-line="110" selection-end-column="49" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
-                <element signature="e#137#280#0" />
               </folding>
             </state>
           </provider>
@@ -31,8 +150,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/前程无忧数据爬取+可视化/数据清洗.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1305">
-              <caret line="43" column="47" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="47" />
+            <state relative-caret-position="330">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#24#43#0" expanded="true" />
               </folding>
@@ -43,29 +162,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/前程无忧数据爬取+可视化/数据可视化.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="106" column="37" selection-start-line="106" selection-start-column="37" selection-end-line="106" selection-end-column="37" />
+            <state relative-caret-position="453">
+              <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
               <folding>
                 <element signature="e#24#38#0" expanded="true" />
-                <element signature="e#474#525#0" />
-                <element signature="e#758#1007#0" />
-                <element signature="e#665#865#0" />
-                <element signature="e#947#998#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://E:/Google_download/pie-doughnut.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
+        <entry file="file://$PROJECT_DIR$/selenium自动化/selenium捕获cookie.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="150">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -97,20 +207,20 @@
         <option value="$PROJECT_DIR$/1.py" />
         <option value="$PROJECT_DIR$/test1.py" />
         <option value="$PROJECT_DIR$/response.html" />
-        <option value="$PROJECT_DIR$/单线程+多任务的异步爬虫.py" />
         <option value="$PROJECT_DIR$/ip_port.txt" />
         <option value="$PROJECT_DIR$/获取代理IP.py" />
-        <option value="$PROJECT_DIR$/前程无忧数据爬取+可视化/爬取数据+持久化.py" />
         <option value="$PROJECT_DIR$/../抄写代码.py" />
         <option value="$PROJECT_DIR$/前程无忧数据爬取+可视化/数据清洗.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/前程无忧数据爬取+可视化/数据可视化.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/单线程+多任务的异步爬虫.py" />
+        <option value="$PROJECT_DIR$/前程无忧数据爬取+可视化/爬取数据+持久化.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="798" />
-    <option name="width" value="1129" />
+    <option name="x" value="804" />
+    <option name="width" value="1123" />
     <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -121,6 +231,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,25 +239,35 @@
               <item name="crawler" type="b2602c69:ProjectViewProjectNode" />
               <item name="crawler" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="crawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="前程无忧数据爬取+可视化" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Scrapy框架练习" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\1\Desktop\crawler\Scrapy框架练习" />
+      <recent name="C:\Users\1\Desktop\crawler\selenium自动化\无头" />
+      <recent name="C:\Users\1\Desktop\crawler\selenium自动化" />
+      <recent name="C:\Users\1\Desktop\crawler\练习小例子\超级鹰验证码识别" />
+      <recent name="C:\Users\1\Desktop\crawler\练习小例子\模拟12306登录" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -160,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.数据可视化">
+  <component name="RunManager" selected="Python.test">
     <configuration name="数据清洗" type="PythonConfigurationType" factoryName="Python">
       <module name="crawler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,28 +304,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="数据可视化" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="crawler" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/前程无忧数据爬取+可视化" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/前程无忧数据爬取+可视化/数据可视化.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="获取代理IP" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="crawler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,6 +318,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:\Users\1\Desktop\crawler\获取代理IP_失败.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="数据可视化" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="crawler" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/前程无忧数据爬取+可视化" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/前程无忧数据爬取+可视化/数据可视化.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -295,7 +416,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.数据可视化" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.countLines" />
         <item itemvalue="Python.爬取数据+持久化" />
@@ -315,11 +435,13 @@
       <updated>1590541671789</updated>
       <workItem from="1590541673118" duration="19774000" />
       <workItem from="1590635479451" duration="57624000" />
+      <workItem from="1590828458975" duration="74000" />
+      <workItem from="1590895123133" duration="9459000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77398000" />
+    <option name="totallyTimeSpent" value="86931000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -331,15 +453,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1051" y="0" width="876" height="1087" extended-state="0" />
-    <editor active="true" />
+    <frame x="804" y="0" width="1123" height="1087" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.036764707" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19661336" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3809024" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20566632" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36306402" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -353,7 +474,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.036764707" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.028222013" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
@@ -385,23 +506,13 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/crawler$.coverage" NAME="数据可视化 Coverage Results" MODIFIED="1590766353334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/前程无忧数据爬取+可视化" />
-    <SUITE FILE_PATH="coverage/crawler$test.coverage" NAME="test Coverage Results" MODIFIED="1590756797346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/crawler$test.coverage" NAME="test Coverage Results" MODIFIED="1590937855525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/crawler$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1590545833380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/crawler$countLines.coverage" NAME="countLines Coverage Results" MODIFIED="1590726398491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Django" />
     <SUITE FILE_PATH="coverage/crawler$IP.coverage" NAME="获取代理IP Coverage Results" MODIFIED="1590568894220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/crawler$_.coverage" NAME="爬取数据+持久化 Coverage Results" MODIFIED="1590658721646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/前程无忧数据爬取+可视化" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1.py" />
     <entry file="file://$PROJECT_DIR$/test1.py" />
     <entry file="file://D:/Python 3.6.7/Lib/site-packages/grpc/framework/foundation/logging_pool.py">
@@ -411,9 +522,95 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ip" />
+    <entry file="file://$PROJECT_DIR$/ip_port.txt" />
+    <entry file="file://D:/Python 3.6.7/Lib/site-packages/requests/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-602691402/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="3599" column="6" selection-start-line="3599" selection-start-column="6" selection-end-line="3599" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/获取代理IP_失败.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python 3.6.7/Lib/site-packages/urllib3/connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="161" column="38" lean-forward="true" selection-start-line="161" selection-start-column="38" selection-end-line="161" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django/Django_pymysql/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django/Django_pymysql/app01/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django/Django_pymysql/app01/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="1" lean-forward="true" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../抄写代码.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django/countLines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1275">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django/Django_pymysql/app01/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="90" column="14" selection-end-line="275" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Google_download/pie-doughnut.html" />
+    <entry file="file://$PROJECT_DIR$/前程无忧数据爬取+可视化/年限需求圆环图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python 3.6.7/Lib/site-packages/sqlalchemy/engine/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="84" column="4" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/response.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1681">
+        <state relative-caret-position="-5850">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#1522#1526#0" expanded="true" />
@@ -626,141 +823,193 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ip" />
-    <entry file="file://$PROJECT_DIR$/ip_port.txt" />
-    <entry file="file://D:/Python 3.6.7/Lib/site-packages/requests/api.py">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架练习/wangyiPro/debug.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="180">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium自动化/reademe.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/练习小例子/openpyxl讲解.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架练习/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架练习/sunCrawlPro/40.8.0">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架练习/Scrapy框架的使用.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-6030" />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/单线程+多任务的异步爬虫.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-309">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-602691402/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="3599" column="6" selection-start-line="3599" selection-start-column="6" selection-end-line="3599" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/获取代理IP_失败.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python 3.6.7/Lib/site-packages/urllib3/connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="161" column="38" lean-forward="true" selection-start-line="161" selection-start-column="38" selection-end-line="161" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Django/Django_pymysql/manage.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Django/Django_pymysql/app01/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Django/Django_pymysql/app01/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" column="1" lean-forward="true" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../抄写代码.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Django/countLines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1275">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="120">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="750">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架练习/wangyiPro/wangyiPro/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架练习/wangyiPro/wangyiPro/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/练习小例子/xpath爬取彼岸图网图片.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架练习/wangyiPro/wangyiPro/items.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架练习/wangyiPro/wangyiPro/spiders/wangyi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架练习/sunCrawlPro/sunCrawlPro/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架练习/sunCrawlPro/sunCrawlPro/spiders/sun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架练习/sunCrawlPro/sunCrawlPro/items.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架练习/sunCrawlPro/sunCrawlPro/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架练习/moviePro/moviePro/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架练习/moviePro/moviePro/spiders/movie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架练习/midllePro/midllePro/items.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架练习/midllePro/midllePro/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架练习/moviePro/moviePro/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#243#1904#0" />
+            <element signature="e#1955#3598#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架练习/midllePro/midllePro/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1170" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架练习/midllePro/midllePro/spiders/middle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium自动化/selenium捕获cookie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前程无忧数据爬取+可视化/爬取数据+持久化.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="110" column="49" selection-start-line="110" selection-start-column="46" selection-end-line="110" selection-end-column="49" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/前程无忧数据爬取+可视化/数据清洗.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="43" column="47" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="47" />
+        <state relative-caret-position="330">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#24#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Django/Django_pymysql/app01/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="90" column="14" selection-end-line="275" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前程无忧数据爬取+可视化/爬取数据+持久化.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="28" column="93" selection-start-line="28" selection-start-column="93" selection-end-line="28" selection-end-column="93" />
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
-            <element signature="e#137#280#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Google_download/pie-doughnut.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前程无忧数据爬取+可视化/年限需求圆环图.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/前程无忧数据爬取+可视化/数据可视化.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="106" column="37" selection-start-line="106" selection-start-column="37" selection-end-line="106" selection-end-column="37" />
+        <state relative-caret-position="453">
+          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
           <folding>
             <element signature="e#24#38#0" expanded="true" />
-            <element signature="e#474#525#0" />
-            <element signature="e#758#1007#0" />
-            <element signature="e#665#865#0" />
-            <element signature="e#947#998#0" />
           </folding>
         </state>
       </provider>
