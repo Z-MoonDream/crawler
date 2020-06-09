@@ -22,10 +22,12 @@ def login():
     bro.switch_to.frame(0)
     bro.find_element_by_id('switcher_plogin').click()
     bro.find_element_by_id('u').clear()  # 清除默认值
-    bro.find_element_by_id('u').send_keys('1803957813')
+    # qq号
+    bro.find_element_by_id('u').send_keys('XXX')
 
     bro.find_element_by_id('p').clear()  # 清除默认值
-    bro.find_element_by_id('p').send_keys('zhouzebo110')
+    # qq密码
+    bro.find_element_by_id('p').send_keys('XXXX')
     bro.find_element_by_id('login_button').click()
     sleep(2)
     bro.switch_to.frame(0)

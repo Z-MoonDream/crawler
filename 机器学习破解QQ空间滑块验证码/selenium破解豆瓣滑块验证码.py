@@ -23,9 +23,9 @@ def login():
     bro.switch_to.frame(0)
     bro.find_element_by_xpath('/html/body/div[1]/div[1]/ul[1]/li[2]').click()
     bro.find_element_by_id('username').clear()  # 清除默认值
-    bro.find_element_by_id('username').send_keys('1803957813')
+    bro.find_element_by_id('username').send_keys('xxxx')
 
-    bro.find_element_by_id('password').send_keys('zhouzebo110')
+    bro.find_element_by_id('password').send_keys('xxxx')
     bro.find_element_by_xpath('/html/body/div[1]/div[2]/div[1]/div[5]').click()
     sleep(2)
     bro.switch_to.frame(0)

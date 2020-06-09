@@ -40,3 +40,10 @@
 - 使用opencv模块(二值化图片，模板匹配，获取偏移量) 计算缺口的偏移值
 - 采用物理加速度相关位移公式先快后慢模拟人工滑动规律
 - 基于selenium动作链执行滑动
+
+### 分布式爬虫
+
+scrapy-redis
+
+爬取房天下，全国所有城市的二手房与新房信息，https://www.fang.com/SoufunFamily.htm
+
