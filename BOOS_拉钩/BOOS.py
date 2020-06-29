@@ -6,7 +6,7 @@ from lxml import etree
 import os
 import json
 import pandas as pd
-class BOOS:
+class Boos:
 
     def __init__(self):
         chrome_options = Options()
@@ -100,6 +100,6 @@ class BOOS:
 
 
 
-test = BOOS()
+test = Boos()
 
 test.main()
