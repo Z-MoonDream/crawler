@@ -47,7 +47,7 @@ class Zlian:
     def get_html_requests(self, url):
         headers_ = {
             'User-Agent': UserAgent().random,
-            'cookie':'acw_sc__v2=5ef9cb68005d493e0ed46ef39d4964d487f37ed9'
+            'cookie':'acw_sc__v2=5efa89235f67098edf32078ad50f9422c908d607'
         }
         time.sleep(0.8)
         response = requests.get(url, headers=headers_).text
@@ -96,13 +96,17 @@ class Zlian:
             dict_['详情页'] = url[i]
             print(f'爬取{dict_["职位名"]}页面完毕')
             self.data_list.append(dict_.copy())
+    def save(self):
+        data_list = sorted(self.data_list,key=lambda x:x['发布日期'])
+        df = pd.DataFrame(data_list)
+        df.to_csv('爬虫职位_智联.csv',encoding='utf-8')
 
 
     def main(self):
         for i in self.yield_url(1):
             html = self.get_html_selenium(i)
             self.parser(html)
-        print(self.data_list)
+        self.save()
 
 
 

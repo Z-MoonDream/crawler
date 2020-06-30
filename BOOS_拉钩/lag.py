@@ -12,7 +12,6 @@ headers = {
 
 }
 
-
 class Lg:
     def __init__(self):
         self.etree = etree
