@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import json
 import time
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -7,32 +8,51 @@ import pandas as pd
 import re
 import requests
 from fake_useragent import UserAgent
-
+import os
 headers = {
-    'User-Agent': UserAgent().random
+    'User-Agent': UserAgent(verify_ssl=False).random
 }
 
 
 class Zlian:
-    def __init__(self):
+    def __init__(self, city='北京', position='爬虫', age_limit='1-3年'):
         chrome_options = Options()
         chrome_options.add_argument('--headless')
         chrome_options.add_argument('--disable-gpu')
+        # 无头浏览器各种BUG，还是不加了
         options = webdriver.ChromeOptions()
         options.add_experimental_option("excludeSwitches", ["enable-automation"])
         options.add_experimental_option('useAutomationExtension', False)
-        self.browser = webdriver.Chrome(executable_path='./chromedriver.exe', options=options)
+        self.path = os.path.join(os.path.dirname(os.path.dirname(__file__)))
+        self.browser = webdriver.Chrome(executable_path=self.path+'/conf/chromedriver.exe', options=options)
         script = ''' Object.defineProperty(navigator, 'webdriver', { get: () => undefined }) '''
         self.browser.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {"source": script})
         self.etree = etree
+        self.city = city
+        self.position = position
+        self.age_limit = age_limit
+
         self.data_list = []
 
     def yield_url(self, num):
-        if num==1:
-            return ['https://sou.zhaopin.com/?jl=530&we=0103&kw=%E7%88%AC%E8%99%AB&kt=3']
-        url_list = (f'https://sou.zhaopin.com/?p={i}jl=530&we=0103&kw=%E7%88%AC%E8%99%AB&kt=3' for i in
-                    range(1, num + 1))
-        return url_list
+        # 杭州：653
+        # 北京：530
+        # 1-3年：0103
+        # 实习生：0000
+        if self.city == '北京':
+            self.city = '530'
+        else:
+            self.city = '653'
+        if self.age_limit == '1-3年':
+            self.age_limit = '0103'
+        else:
+            self.age_limit = '0000'
+        if num == 1:
+            return [f'https://sou.zhaopin.com/?jl={self.city}&we={self.age_limit}&kw={self.position}']
+        url_list = [f'https://sou.zhaopin.com/?p={i}jl={self.city}&we={self.age_limit}&kw={self.position}' for i in
+                    range(1, num + 1)]
+
+        return [f'https://sou.zhaopin.com/?jl={self.city}&we={self.age_limit}&kw={self.position}']+url_list
 
     @staticmethod
     def formatting(data_list):
@@ -40,17 +60,32 @@ class Zlian:
 
     def get_html_selenium(self, url):
         self.browser.get(url)
-        input('页面加载完毕后按回车继续:')
+        time.sleep(2)
+        self.browser.refresh()
+        time.sleep(5)
         html = self.browser.page_source
         return html
 
+    def get_cookie(self, url):
+        self.browser.get(url)
+        cookies = self.browser.get_cookies()
+        with open(self.path+'/cookie/acw_sc__v2.json', 'w') as f:
+            f.write(json.dumps(cookies))
+
     def get_html_requests(self, url):
+        with open(self.path+'/cookie/acw_sc__v2.json', 'r') as f:
+            cookies = json.load(f)
+        value = ''
+        for dic in cookies:
+            if dic['name'] == 'acw_sc__v2':
+                value = dic['value']
+                break
         headers_ = {
             'User-Agent': UserAgent().random,
-            'cookie':'acw_sc__v2=5efa89235f67098edf32078ad50f9422c908d607'
+            'cookie': f'acw_sc__v2={value}'
         }
-        time.sleep(0.8)
-        response = requests.get(url, headers=headers_).text
+        time.sleep(0.5)
+        response = requests.get(url, headers=headers_, timeout=5).text
         return response
 
     def parser(self, html):
@@ -77,38 +112,39 @@ class Zlian:
                 '技术栈': '',
                 '详情页': '',
             }
+            try:
+                self.get_html_requests(url=url[i])
+            except FileNotFoundError:
+                self.get_cookie(url[i])
             response = self.get_html_requests(url=url[i])
             etree = self.etree.HTML(response)
             try:
                 time_ = etree.xpath('//span[@class="summary-plane__time"]//text()')
                 time_ = self.formatting(time_)[0]
-            except IndexError as e :
-                print(e,url[i],etree.xpath('//span[@class="summary-plane__time"]//text()'))
+            except IndexError as e:
+                print(e, url[i], etree.xpath('//span[@class="summary-plane__time"]//text()'))
+                self.get_cookie(url[i])
                 continue
             skill = '/'.join(etree.xpath('//div[@class="describtion__skills-content"]//text()'))
             dict_['职位名'] = position[i]
             dict_['公司名'] = company[i]
             dict_['薪资'] = pay[i]
-            dict_['发布日期'] =time_
-            dict_['工作时间/学历'] = age[i]+edu[i]
+            dict_['发布日期'] = time_
+            dict_['工作时间/学历'] = age[i] + edu[i]
             dict_['地点'] = site[i]
             dict_['技术栈'] = skill
             dict_['详情页'] = url[i]
-            print(f'爬取{dict_["职位名"]}页面完毕')
+            print(f'爬取职位：{dict_["职位名"]}，平台：智联，完毕')
             self.data_list.append(dict_.copy())
-    def save(self):
-        data_list = sorted(self.data_list,key=lambda x:x['发布日期'])
-        df = pd.DataFrame(data_list)
-        df.to_csv('爬虫职位_智联.csv',encoding='utf-8')
 
+    def save(self):
+        data_list = sorted(self.data_list, key=lambda x: x['发布日期'])
+        df = pd.DataFrame(data_list)
+        df.to_csv(self.path+'/csv/职位_智联.csv', encoding='utf-8')
 
     def main(self):
-        for i in self.yield_url(1):
+        for i in self.yield_url(8):
             html = self.get_html_selenium(i)
             self.parser(html)
         self.save()
-
-
-
-zhilian = Zlian()
-zhilian.main()
+        self.browser.close()
