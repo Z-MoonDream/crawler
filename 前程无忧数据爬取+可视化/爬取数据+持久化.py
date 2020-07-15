@@ -108,6 +108,15 @@ if __name__ == '__main__':
     cursor = conn.cursor()
     lock = Lock()
     pool = Pool(30)
+    # map(回调函数，参数])
+    # 这个参数必须是一个列表，里面中有很多个参数，这样才能执行并发
+    # 也就是执行了回调(参数),如果你的参数要是多个的话那么就把参数定义为一个[参数1，参数2]
+    # map(回调函数,[[参数1,参数2],[参数1,参数2]] 这样是并发执行两次回调函数,如果函数有返回值，那么返回值将存入列表中最终一起返回
+    # 比如 ：
+    # def get_html(proxies):
+    # return proxies 
+    # bb = pool.map(get_html,[[1,2],2,3,4]) 
+    # print(bb) [[1, 2], 2, 3, 4]
     list_data = pool.map(get_request,produce('大数据',500))
     pool.map(persistence,list_data)
     cursor.close()
