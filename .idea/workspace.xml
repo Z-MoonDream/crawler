@@ -3,25 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="80717da2-7d85-42c5-a150-13a1f0730373" name="Default Changelist" comment="Default Changelist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/cookie/BOOS_cookies.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/cookie/acw_sc__v2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/BOOS.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/BOOS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/ZhiLian.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/ZhiLian.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/job_51.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/job_51.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/lag.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/lag.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/save.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/save.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/csv/职位_51job.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/csv/职位_BOOS.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/csv/职位_拉钩.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/findjob.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/findjob.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/web职位.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/测试bug/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/测试bug/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scrapy框架练习/Scrapy框架的使用.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/分布式爬虫/搜房分布式爬虫/fang/esf_house.json" beforeDir="false" afterPath="$PROJECT_DIR$/分布式爬虫/搜房分布式爬虫/fang/esf_house.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/分布式爬虫/搜房分布式爬虫/fang/fang/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/分布式爬虫/搜房分布式爬虫/fang/fang/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/分布式爬虫/搜房分布式爬虫/fang/new_house.json" beforeDir="false" afterPath="$PROJECT_DIR$/分布式爬虫/搜房分布式爬虫/fang/new_house.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/练习小例子/练习.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -225,9 +206,9 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="374" />
-    <option name="y" value="109" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="947" />
+    <option name="y" value="68" />
     <option name="width" value="1490" />
     <option name="height" value="871" />
   </component>
@@ -659,12 +640,12 @@
       <workItem from="1594195089003" duration="1238000" />
       <workItem from="1594285209208" duration="6631000" />
       <workItem from="1594386194190" duration="5853000" />
-      <workItem from="1594780251577" duration="21360000" />
+      <workItem from="1594780251577" duration="22034000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="257625000" />
+    <option name="totallyTimeSpent" value="258299000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -676,9 +657,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="374" y="109" width="1490" height="871" extended-state="0" />
+    <frame x="947" y="68" width="1490" height="871" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15756303" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15756303" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -692,7 +673,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32876712" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5031111" side_tool="true" weight="0.2065332" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49688888" visible="true" weight="0.36971352" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49688888" visible="true" weight="0.36971352" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.28226653" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
