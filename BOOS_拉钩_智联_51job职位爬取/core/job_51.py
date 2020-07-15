@@ -65,10 +65,14 @@ class Job:
             return
 
         for div in div_list:
+
             try:
                 message_data = {}
                 position = div.xpath('./p/span/a/@title')[0]
-                company = div.xpath('./span[1]/a/@title')[0]
+                if self.position not in position:
+                    continue
+                else:
+                    company = div.xpath('./span[1]/a/@title')[0]
                 site = div.xpath('./span[2]/text()')[0]
                 pay = div.xpath('./span[3]/text()')[0]
                 time_ = div.xpath('./span[4]/text()')[0]

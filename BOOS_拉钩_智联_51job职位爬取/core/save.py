@@ -59,7 +59,10 @@ import re
 class Save:
 
     def job_51(self, name, position):
-        job = pd.read_csv(name)
+        try:
+            job = pd.read_csv(name)
+        except:
+            return []
         dict_ = job.to_dict(orient='records')
         dict_new = []
         for i in dict_:
@@ -78,13 +81,16 @@ class Save:
         dict_ = boos_.to_dict(orient='records')
         dict_new = []
         for dic in dict_:
-            if position in dic['职位名']:
+            if 'python' in dic['职位名']:
                 if 'Java' not in dic['职位名']:
                     dic['招聘网站'] = 'BOOS'
                     dic['发布日期'] = dic['发布日期'].replace('昨天', f'{datetime.datetime.now().month}月'
                     f'{datetime.datetime.now().day - 1}日')
                     # 发布于05月06日 将05中的0去掉
                     dic['发布日期'] = re.sub('于0', '于', dic['发布日期'])
+                    if ':' in dic['发布日期']:
+                        dic['发布日期'] = re.sub('于\S*', f'{datetime.datetime.now().month}月'
+                        f'{datetime.datetime.now().day}日', dic['发布日期'])
                     dict_new.append(dic)
 
         return dict_new
@@ -109,11 +115,13 @@ class Save:
                         dic['发布日期'] = re.sub('月', '月0', dic['发布日期'])
 
                     dict_new.append(dic)
-        # print(dict_)
         return dict_new
 
     def zhilian(self, name, position):
-        zhilian = pd.read_csv(name)
+        try:
+            zhilian = pd.read_csv(name)
+        except:
+            return []
         zhilian.drop('Unnamed: 0', axis=1, inplace=True)
         dict_ = zhilian.to_dict(orient='records')
         dict_new = []
@@ -134,21 +142,48 @@ class Save:
                     dict_new.append(i)
         return dict_new
 
-    def main(self, position):
+    def main(self,city, position,age_limit):
         path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "csv")
         dict_list = self.boos(path+'/职位_BOOS.csv', position) + self.lag(path+'/职位_拉钩.csv', position) \
                     + self.zhilian(path+'/职位_智联.csv', position) + self.job_51(path+'/职位_51job.csv', position)
         dict_list = sorted(dict_list, key=lambda x: x['发布日期'])
-
         csv = pd.DataFrame(dict_list)
         columns = list(csv)
-        # print(list(csv))
-        # csv.pop(csv.index('详情页'))
-        # csv.append('详情页')
         columns.insert(-1, columns.pop(columns.index('招聘网站')))
         csv = csv[columns]
-        csv.to_csv(f'{position}职位.csv', encoding='utf-8', index=False)
-        os.remove(path+'/职位_BOOS.csv')
-        os.remove(path+'/职位_拉钩.csv')
-        os.remove(path+'/职位_智联.csv')
-        os.remove(path+'/职位_51job.csv')
+        csv.drop_duplicates(['职位名','详情页'], 'first', inplace=True)
+        csv.to_csv(f'{city}_{position}职位_{age_limit}.csv', encoding='utf-8', index=False)
+
+        # os.remove(path+'/职位_BOOS.csv')
+        # os.remove(path+'/职位_拉钩.csv')
+        # os.remove(path+'/职位_智联.csv')
+        # os.remove(path+'/职位_51job.csv')
+
+        print('''/*
+        *      
+        *          ┌─┐       ┌─┐
+        *       ┌──┘ ┴───────┘ ┴──┐
+        *       │                 │
+        *       │       ───       │
+        *       │  ─┬┘       └┬─  │
+        *       │                 │
+        *       │       ─┴─       │
+        *       │                 │
+        *       └───┐         ┌───┘
+        *           │         │
+        *           │         │
+        *           │         │
+        *           │         └──────────────┐
+        *           │                        │
+        *           │                        ├─┐
+        *           │                        ┌─┘    
+        *           │                        │
+        *           └─┐  ┐  ┌───────┬──┐  ┌──┘         
+        *             │ ─┤ ─┤       │ ─┤ ─┤         
+        *             └──┴──┘       └──┴──┘ 
+        *                 神兽保佑 
+        *                 代码无BUG! 
+        */''')
+
+        print('数据清洗完毕，OVER！！！！')
+

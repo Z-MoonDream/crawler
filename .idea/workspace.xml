@@ -2,23 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80717da2-7d85-42c5-a150-13a1f0730373" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOS_拉钩/51job.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOS_拉钩/BOOS.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOS_拉钩/BOOS_cookies.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOS_拉钩/ZhiLian.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOS_拉钩/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOS_拉钩/lag.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOS_拉钩/save.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOS_拉钩/selenium智联解析获取cookie-requests读取.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOS_拉钩/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOS_拉钩/格式化cookie.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOS_拉钩/爬虫职位_51job.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOS_拉钩/爬虫职位_BOOS.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOS_拉钩/爬虫职位_拉钩-51-boos-智联.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOS_拉钩/爬虫职位_拉钩.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOS_拉钩/爬虫职位_智联.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/cookie/BOOS_cookies.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/cookie/acw_sc__v2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/BOOS.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/BOOS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/ZhiLian.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/ZhiLian.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/job_51.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/job_51.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/lag.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/lag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/save.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/save.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/csv/职位_51job.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/csv/职位_BOOS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/csv/职位_拉钩.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/findjob.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/findjob.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/web职位.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/测试bug/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/测试bug/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scrapy框架练习/Scrapy框架的使用.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/分布式爬虫/搜房分布式爬虫/fang/esf_house.json" beforeDir="false" afterPath="$PROJECT_DIR$/分布式爬虫/搜房分布式爬虫/fang/esf_house.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/分布式爬虫/搜房分布式爬虫/fang/fang/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/分布式爬虫/搜房分布式爬虫/fang/fang/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/分布式爬虫/搜房分布式爬虫/fang/new_house.json" beforeDir="false" afterPath="$PROJECT_DIR$/分布式爬虫/搜房分布式爬虫/fang/new_house.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/练习小例子/练习.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/findjob.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1590">
-              <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+            <state relative-caret-position="253">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#24#56#0" expanded="true" />
               </folding>
@@ -55,37 +58,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/测试bug/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/save.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4020">
-              <caret line="137" column="8" selection-start-line="137" selection-start-column="8" selection-end-line="137" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/BOOS.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3540">
-              <caret line="124" selection-start-line="124" selection-end-line="124" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/job_51.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3210">
-              <caret line="112" selection-start-line="112" selection-end-line="112" />
+            <state relative-caret-position="13">
+              <caret line="74" column="35" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
               </folding>
@@ -96,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/lag.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2130">
-              <caret line="75" column="27" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
+            <state relative-caret-position="283">
+              <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
               </folding>
@@ -105,13 +81,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/ZhiLian.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="148" column="19" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="19" />
+            <state relative-caret-position="423">
+              <caret line="121" column="24" selection-start-line="120" selection-start-column="11" selection-end-line="121" selection-end-column="24" />
               <folding>
                 <element signature="e#24#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/BOOS.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="65" column="64" lean-forward="true" selection-start-line="65" selection-start-column="64" selection-end-line="65" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/save.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-30">
+              <caret line="128" column="31" selection-start-line="128" selection-start-column="31" selection-end-line="128" selection-end-column="31" />
+              <folding>
+                <element signature="e#82#119#0" />
               </folding>
             </state>
           </provider>
@@ -122,8 +119,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -148,11 +145,15 @@
       <find>y</find>
       <find>z</find>
       <find>experience</find>
-      <find>拉钩</find>
       <find>try</find>
       <find>run</find>
       <find>Q</find>
       <find>智联</find>
+      <find>拉钩</find>
+      <find>数据采集工程师</find>
+      <find>14:59</find>
+      <find>14:</find>
+      <find>drop_duplicates</find>
     </findStrings>
     <replaceStrings>
       <replace>灰色</replace>
@@ -164,14 +165,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test1.py" />
-        <option value="$PROJECT_DIR$/response.html" />
-        <option value="$PROJECT_DIR$/ip_port.txt" />
         <option value="$PROJECT_DIR$/获取代理IP.py" />
         <option value="$PROJECT_DIR$/../抄写代码.py" />
         <option value="$PROJECT_DIR$/前程无忧数据爬取+可视化/数据清洗.py" />
         <option value="$PROJECT_DIR$/前程无忧数据爬取+可视化/数据可视化.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/单线程+多任务的异步爬虫.py" />
         <option value="$PROJECT_DIR$/前程无忧数据爬取+可视化/爬取数据+持久化.py" />
         <option value="$PROJECT_DIR$/分布式爬虫/搜房分布式爬虫/fang/fang/spiders/sfw.py" />
@@ -207,14 +204,18 @@
         <option value="$PROJECT_DIR$/BOOS_拉钩/test.py" />
         <option value="$PROJECT_DIR$/BOOS_拉钩/save.py" />
         <option value="$PROJECT_DIR$/BOOS_拉钩/findjob.py" />
+        <option value="D:/考勤/弹出没在签到表上的人名.py" />
+        <option value="$PROJECT_DIR$/分布式爬虫/搜房分布式爬虫/fang/fang/settings.py" />
+        <option value="$PROJECT_DIR$/11.html" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/分布式爬虫/搜房分布式爬虫/fang/fang/middlewares.py" />
         <option value="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/测试bug/test.py" />
         <option value="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/save.py" />
-        <option value="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/findjob.py" />
         <option value="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/lag.py" />
-        <option value="D:/考勤/弹出没在签到表上的人名.py" />
-        <option value="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/BOOS.py" />
-        <option value="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/job_51.py" />
         <option value="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/ZhiLian.py" />
+        <option value="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/job_51.py" />
+        <option value="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/findjob.py" />
+        <option value="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/BOOS.py" />
       </list>
     </option>
   </component>
@@ -224,10 +225,11 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="683" />
-    <option name="width" value="1244" />
-    <option name="height" value="1087" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="374" />
+    <option name="y" value="109" />
+    <option name="width" value="1490" />
+    <option name="height" value="871" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="添加" />
@@ -237,7 +239,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -245,17 +246,23 @@
               <item name="crawler" type="b2602c69:ProjectViewProjectNode" />
               <item name="crawler" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="crawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="BOOS_拉钩_智联_51job职位爬取" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/plus_len/练习/爬虫/virtualenv/Zhaopin" />
+    <property name="last_opened_file_path" value="E:/爬虫笔记/SQLAlchemy" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -265,22 +272,22 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\日常\crawler\BOOS_拉钩_智联_51job职位爬取" />
+      <recent name="E:\日常\crawler\BOOS_拉钩_智联_51job职位爬取\测试bug" />
+      <recent name="E:\日常\crawler\BOOS_拉钩\测试bug" />
+      <recent name="E:\日常\crawler\BOOS_拉钩\cookie" />
+      <recent name="E:\日常\crawler\BOOS_拉钩\conf" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\日常\crawler" />
       <recent name="E:\日常\crawler\Scrapy框架练习" />
       <recent name="C:\Users\1\Desktop\crawler\Scrapy框架练习" />
       <recent name="C:\Users\1\Desktop\crawler\selenium自动化\无头" />
       <recent name="C:\Users\1\Desktop\crawler\selenium自动化" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\日常\crawler\BOOS_拉钩\测试bug" />
-      <recent name="E:\日常\crawler\BOOS_拉钩\cookie" />
-      <recent name="E:\日常\crawler\BOOS_拉钩\conf" />
-      <recent name="E:\日常\crawler\BOOS_拉钩\core" />
-      <recent name="E:\日常\crawler\BOOS_拉钩" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -295,7 +302,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ZhiLian">
+  <component name="RunManager" selected="Python.findjob (1)">
     <configuration name="数据清洗" type="PythonConfigurationType" factoryName="Python">
       <module name="crawler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -310,28 +317,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/前程无忧数据爬取+可视化/数据清洗.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="BOOS" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="crawler" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/BOOS.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -560,6 +545,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="lag" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="crawler" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/lag.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="save" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="crawler" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/save.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="crawler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -584,10 +613,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ZhiLian" />
         <item itemvalue="Python.findjob (1)" />
-        <item itemvalue="Python.BOOS" />
+        <item itemvalue="Python.lag" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.ZhiLian" />
+        <item itemvalue="Python.save" />
       </list>
     </recent_temporary>
   </component>
@@ -620,12 +650,21 @@
       <workItem from="1593673253553" duration="2626000" />
       <workItem from="1593683908094" duration="4813000" />
       <workItem from="1593689340056" duration="696000" />
-      <workItem from="1593690281188" duration="256000" />
+      <workItem from="1593690281188" duration="1611000" />
+      <workItem from="1593736082475" duration="620000" />
+      <workItem from="1593758603473" duration="1527000" />
+      <workItem from="1593762608861" duration="2899000" />
+      <workItem from="1594127916171" duration="100000" />
+      <workItem from="1594128486918" duration="625000" />
+      <workItem from="1594195089003" duration="1238000" />
+      <workItem from="1594285209208" duration="6631000" />
+      <workItem from="1594386194190" duration="5853000" />
+      <workItem from="1594780251577" duration="21360000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215417000" />
+    <option name="totallyTimeSpent" value="257625000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -637,14 +676,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="683" y="0" width="1244" height="1087" extended-state="0" />
+    <frame x="374" y="109" width="1490" height="871" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14551607" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15756303" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977778" weight="0.3045311" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977778" weight="0.368476" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36221296" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -653,13 +692,13 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32876712" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5031111" side_tool="true" weight="0.2065332" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49688888" visible="true" weight="0.35932562" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49688888" visible="true" weight="0.36971352" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.28226653" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.028037382" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.02538071" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.021008404" />
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -689,25 +728,26 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/crawler$BOOS.coverage" NAME="BOOS Coverage Results" MODIFIED="1593686128466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core" />
+    <SUITE FILE_PATH="coverage/crawler$start.coverage" NAME="start Coverage Results" MODIFIED="1593762259144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/分布式爬虫/搜房分布式爬虫/fang" />
+    <SUITE FILE_PATH="coverage/crawler$BOOS.coverage" NAME="BOOS Coverage Results" MODIFIED="1594794943393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core" />
     <SUITE FILE_PATH="coverage/crawler$get_ip.coverage" NAME="get_ip Coverage Results" MODIFIED="1593423278898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/plus_len/练习/爬虫" />
-    <SUITE FILE_PATH="coverage/crawler$ZhiLian.coverage" NAME="ZhiLian Coverage Results" MODIFIED="1593686989738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core" />
+    <SUITE FILE_PATH="coverage/crawler$ZhiLian.coverage" NAME="ZhiLian Coverage Results" MODIFIED="1594806830884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core" />
     <SUITE FILE_PATH="coverage/crawler$.coverage" NAME="弹出没在签到表上的人名 Coverage Results" MODIFIED="1593685773968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/考勤" />
-    <SUITE FILE_PATH="coverage/crawler$test.coverage" NAME="test Coverage Results" MODIFIED="1593608027255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/测试bug" />
+    <SUITE FILE_PATH="coverage/crawler$test.coverage" NAME="test Coverage Results" MODIFIED="1594808861702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/测试bug" />
     <SUITE FILE_PATH="coverage/crawler$countLines.coverage" NAME="countLines Coverage Results" MODIFIED="1590726398491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Django" />
-    <SUITE FILE_PATH="coverage/crawler$lag.coverage" NAME="lag Coverage Results" MODIFIED="1593339253712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOOS_拉钩" />
+    <SUITE FILE_PATH="coverage/crawler$lag.coverage" NAME="lag Coverage Results" MODIFIED="1594811520808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core" />
     <SUITE FILE_PATH="coverage/crawler$IP.coverage" NAME="获取代理IP Coverage Results" MODIFIED="1590568894220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/crawler$interview.coverage" NAME="interview Coverage Results" MODIFIED="1593586583610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/crawler$job_51.coverage" NAME="job_51 Coverage Results" MODIFIED="1593604266830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOOS_拉钩" />
     <SUITE FILE_PATH="coverage/crawler$cookie.coverage" NAME="格式化cookie Coverage Results" MODIFIED="1593425999917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOOS_拉钩" />
-    <SUITE FILE_PATH="coverage/crawler$findjob__1_.coverage" NAME="findjob (1) Coverage Results" MODIFIED="1593686161865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取" />
+    <SUITE FILE_PATH="coverage/crawler$findjob__1_.coverage" NAME="findjob (1) Coverage Results" MODIFIED="1594814562584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取" />
     <SUITE FILE_PATH="coverage/crawler$interview_.coverage" NAME="interview_第二题 Coverage Results" MODIFIED="1593588808434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
     <SUITE FILE_PATH="coverage/crawler$_.coverage" NAME="爬取数据+持久化 Coverage Results" MODIFIED="1590658721646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/前程无忧数据爬取+可视化" />
     <SUITE FILE_PATH="coverage/crawler$QQspacesliding.coverage" NAME="QQspacesliding Coverage Results" MODIFIED="1591599840144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/机器学习破解QQ空间滑块验证码" />
     <SUITE FILE_PATH="coverage/crawler$save__1_.coverage" NAME="save (1) Coverage Results" MODIFIED="1593607404624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core" />
     <SUITE FILE_PATH="coverage/crawler$findjob.coverage" NAME="findjob Coverage Results" MODIFIED="1593606476793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOOS_拉钩" />
-    <SUITE FILE_PATH="coverage/crawler$save.coverage" NAME="save Coverage Results" MODIFIED="1593605812778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOOS_拉钩" />
-    <SUITE FILE_PATH="coverage/crawler$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1593339035904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOOS_拉钩" />
+    <SUITE FILE_PATH="coverage/crawler$save.coverage" NAME="save Coverage Results" MODIFIED="1594800714594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core" />
+    <SUITE FILE_PATH="coverage/crawler$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1594353373324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/crawler$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1590545833380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/crawler$seleniumcookie_requests.coverage" NAME="selenium智联解析获取cookie-requests读取 Coverage Results" MODIFIED="1593572226003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOOS_拉钩" />
     <SUITE FILE_PATH="coverage/crawler$BOOS_.coverage" NAME="BOOS_无头且规避浏览器检测 Coverage Results" MODIFIED="1593252546294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/爬虫笔记/杭州面试" />
@@ -717,129 +757,6 @@
     <SUITE FILE_PATH="coverage/crawler$_cookie_.coverage" NAME="爬取雪球网咨询(要cookie) Coverage Results" MODIFIED="1593421223249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/plus_len/练习/爬虫/练习小例子" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/Google_download/匿名伪装IP/get_ip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="65" column="12" lean-forward="true" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BOOS_拉钩/acw_sc__v2_create.js" />
-    <entry file="file://$PROJECT_DIR$/BOOS_拉钩/text.csv" />
-    <entry file="file://$PROJECT_DIR$/BOOS_拉钩/selenium智联解析.py" />
-    <entry file="file://$PROJECT_DIR$/BOOS_拉钩/抄写代码.py" />
-    <entry file="file://E:/plus_len/练习/爬虫/练习小例子/爬取B站视频/爬取B视频.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BOOS_拉钩/测试js.py" />
-    <entry file="file://$PROJECT_DIR$/BOOS_拉钩/清洗完毕_51job.csv" />
-    <entry file="file://E:/爬虫笔记/杭州面试/灵犀科技/链家网房源信息爬取.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py" />
-    <entry file="file://$PROJECT_DIR$/test.html" />
-    <entry file="file://E:/plus_len/练习/爬虫/Scrapy框架/bmw/bmw/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/分布式爬虫/搜房分布式爬虫/fang/fang/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-155" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BOOS_拉钩/测试bug/selenium智联解析获取cookie-requests读取.py" />
-    <entry file="file://$PROJECT_DIR$/BOOS_拉钩/爬虫职位_智联.csv" />
-    <entry file="file://$PROJECT_DIR$/BOOS_拉钩/格式化cookie.py" />
-    <entry file="file://$PROJECT_DIR$/BOOS_拉钩/cookie/acw_sc__v2.json" />
-    <entry file="file://$PROJECT_DIR$/机器学习破解QQ空间滑块验证码/QQspacesliding.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="146" column="48" selection-start-line="146" selection-start-column="8" selection-end-line="146" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习破解QQ空间滑块验证码/selenium破解豆瓣滑块验证码.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/plus_len/练习/爬虫/练习小例子/爬取雪球网咨询(要cookie).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/分布式爬虫/搜房分布式爬虫/fang/fang/spiders/sfw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2220">
-          <caret line="69" column="77" lean-forward="true" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="77" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/面试题/interview_第二题.py" />
-    <entry file="file://E:/plus_len/练习/爬虫/get_ip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1695">
-          <caret line="46" column="74" lean-forward="true" selection-start-line="46" selection-start-column="74" selection-end-line="46" selection-end-column="74" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python 3.6.7/Lib/site-packages/DecryptLogin/platforms/renren.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../git/码云_git/examples-of-web-crawlers/1.淘宝模拟登录/taobao_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="31" column="95" lean-forward="true" selection-start-line="31" selection-start-column="95" selection-end-line="31" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/plus_len/练习/爬虫/Scrapy框架/bmw/bmw/spiders/bmw5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/分布式爬虫/搜房分布式爬虫 - redis-scrapy/fang/fang/spiders/sfw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/interview_第二题.py" />
-    <entry file="file://$PROJECT_DIR$/interview.py" />
     <entry file="file://$PROJECT_DIR$/BOOS_拉钩/职位_BOOS.csv" />
     <entry file="file://$PROJECT_DIR$/BOOS_拉钩/职位_智联.csv" />
     <entry file="file://$PROJECT_DIR$/BOOS_拉钩/职位_拉钩.csv" />
@@ -861,16 +778,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BOOS_拉钩/findjob.py" />
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/1803957813/FileRecv/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="37" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/1803957813/FileRecv/views.py" />
     <entry file="file://D:/Python 3.6.7/Lib/site-packages/selenium/webdriver/common/service.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -888,51 +796,215 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/findjob.py">
+    <entry file="file://$PROJECT_DIR$/../Django/msg_mange_sys/Utils/分页.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1590">
-          <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+        <state relative-caret-position="300">
+          <caret line="9" column="85" selection-start-line="9" selection-start-column="85" selection-end-line="9" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前程无忧数据爬取+可视化/年限需求玫瑰图.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/分布式爬虫/搜房分布式爬虫/fang/fang/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="18" column="146" selection-start-line="18" selection-start-column="146" selection-end-line="18" selection-end-column="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前程无忧数据爬取+可视化/数据清洗.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
           <folding>
-            <element signature="e#24#56#0" expanded="true" />
+            <element signature="e#24#43#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/练习小例子/练习.py" />
+    <entry file="file://$PROJECT_DIR$/练习小例子/爬取BOSS直聘.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python 3.6.7/Lib/site-packages/DecryptLogin/platforms/renren.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11.html" />
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/分布式爬虫/搜房分布式爬虫/fang/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/分布式爬虫/搜房分布式爬虫/fang/fang/spiders/sfw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="78" column="65" selection-start-line="78" selection-start-column="65" selection-end-line="78" selection-end-column="65" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/分布式爬虫/搜房分布式爬虫/fang/fang/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="72" selection-start-line="71" selection-end-line="72" />
+          <folding>
+            <element signature="e#275#1936#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架练习/bmw/bmw/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-543" />
+      </provider>
+    </entry>
+    <entry file="file://D:/Python 3.6.7/Lib/site-packages/scrapy/linkextractors/lxmlhtml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python 3.6.7/Lib/site-packages/scrapy/spiders/crawl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架练习/qsbk/qsbk/spiders/qsbk_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架练习/moviePro/moviePro/spiders/movie.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架练习/midllePro/midllePro/spiders/middle.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架练习/imgPro/imgPro/spiders/img.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架练习/huyaPro/huyaPro/spiders/huya.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架练习/bmw/bmw/spiders/bmw5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架练习/huyaAll/huyaAll/spiders/huya.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/csv/职位_51job.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy框架练习/bmw/bmw/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/csv/职位_拉钩.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/杭州_python职位_1-3年.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/requirement.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/csv/职位_智联.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/csv/职位_BOOS.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="194" column="44" selection-start-line="194" selection-start-column="39" selection-end-line="194" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/测试bug/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/save.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4020">
-          <caret line="137" column="8" selection-start-line="137" selection-start-column="8" selection-end-line="137" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/BOOS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3540">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/job_51.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3210">
-          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        <state relative-caret-position="553">
+          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
           <folding>
-            <element signature="e#24#39#0" expanded="true" />
+            <element signature="e#164#179#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/lag.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2130">
-          <caret line="75" column="27" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
+        <state relative-caret-position="283">
+          <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/save.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="128" column="31" selection-start-line="128" selection-start-column="31" selection-end-line="128" selection-end-column="31" />
+          <folding>
+            <element signature="e#82#119#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/job_51.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="74" column="35" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
           </folding>
@@ -941,11 +1013,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/ZhiLian.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="148" column="19" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="19" />
+        <state relative-caret-position="423">
+          <caret line="121" column="24" selection-start-line="120" selection-start-column="11" selection-end-line="121" selection-end-column="24" />
           <folding>
             <element signature="e#24#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/findjob.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#24#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BOOS_拉钩_智联_51job职位爬取/core/BOOS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="65" column="64" lean-forward="true" selection-start-line="65" selection-start-column="64" selection-end-line="65" selection-end-column="64" />
         </state>
       </provider>
     </entry>

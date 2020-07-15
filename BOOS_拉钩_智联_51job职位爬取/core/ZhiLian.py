@@ -31,7 +31,8 @@ class Zlian:
         self.city = city
         self.position = position
         self.age_limit = age_limit
-
+        # 去重
+        self.tag = 0
         self.data_list = []
 
     def yield_url(self, num):
@@ -101,7 +102,12 @@ class Zlian:
         edu = etree.xpath('//div[contains(@class,"jobDesc")]/ul/li[3]/text()')
         edu = self.formatting(edu)
         url = etree.xpath('//div[contains(@class,"clearfix")]/a/@href')
-        for i in range(len(company)):
+        # 如果标志位与company相同说明是同一页重复加载，那么结束分页爬取
+        if self.tag==company:
+            return True
+        else:
+            self.tag = company
+        for i in range(len(company)-1):
             dict_ = {
                 '职位名': '',
                 '公司名': '',
@@ -112,9 +118,12 @@ class Zlian:
                 '技术栈': '',
                 '详情页': '',
             }
+            if self.position not in position[i]:
+                continue
             try:
                 self.get_html_requests(url=url[i])
-            except FileNotFoundError:
+            except (FileNotFoundError,IndexError):
+
                 self.get_cookie(url[i])
             response = self.get_html_requests(url=url[i])
             etree = self.etree.HTML(response)
@@ -122,10 +131,11 @@ class Zlian:
                 time_ = etree.xpath('//span[@class="summary-plane__time"]//text()')
                 time_ = self.formatting(time_)[0]
             except IndexError as e:
-                print(e, url[i], etree.xpath('//span[@class="summary-plane__time"]//text()'))
+                print(e, url[i],'请检查页面结构完善，更新维护')
                 self.get_cookie(url[i])
                 continue
             skill = '/'.join(etree.xpath('//div[@class="describtion__skills-content"]//text()'))
+
             dict_['职位名'] = position[i]
             dict_['公司名'] = company[i]
             dict_['薪资'] = pay[i]
@@ -136,6 +146,7 @@ class Zlian:
             dict_['详情页'] = url[i]
             print(f'爬取职位：{dict_["职位名"]}，平台：智联，完毕')
             self.data_list.append(dict_.copy())
+        return False
 
     def save(self):
         data_list = sorted(self.data_list, key=lambda x: x['发布日期'])
@@ -145,6 +156,7 @@ class Zlian:
     def main(self):
         for i in self.yield_url(8):
             html = self.get_html_selenium(i)
-            self.parser(html)
+            if  self.parser(html):
+                break
         self.save()
         self.browser.close()

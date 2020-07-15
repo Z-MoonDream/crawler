@@ -60,7 +60,10 @@ class Lg:
             data_list['薪资'] = i['salary']
             data_list['发布日期'] = i['createTime']
             data_list['工作时间/学历'] = i['workYear'] + '/' + i['education']
-            data_list['地点'] = '北京' + '·' + i['district']
+            try:
+                data_list['地点'] = self.city + '·' + i['district']
+            except TypeError:
+                data_list['地点'] = self.city
             data_list['技术栈'] = '/'.join(i['positionLables'])
             data_list['详情页'] = 'https://www.lagou.com/jobs/' + str(i['positionId']) + '.html'
             print(f'爬取职位：{data_list["职位名"]},平台：拉钩，完毕')
@@ -82,3 +85,4 @@ class Lg:
             response = self.get_data(self.yield_url(), data)
             self.parser(response)
         self.save()
+

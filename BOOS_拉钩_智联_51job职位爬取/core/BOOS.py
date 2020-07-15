@@ -29,13 +29,14 @@ class Boos:
         self.city = city
         self.position = position
         self.age_limit = age_limit
-
         self.data_list = []
+
 
     def yield_url(self, num):
         # e_104:工作经验：1-3年
         # e_103：工作经验：1年以内
         # e_102：工作经验：应届生
+        # e_108：工作经验：在校生
         # period:5是1个月以内 4是15天以内
         # 北京：c101010100
         # 杭州：c101210100
@@ -47,7 +48,7 @@ class Boos:
         if self.age_limit == '1-3年':
             self.age_limit = 'e_104'
         else:
-            self.age_limit = 'e_103'
+            self.age_limit = 'e_108'
 
 
         url_list = (f'https://www.zhipin.com/{self.city}/{self.age_limit}/?query={self.position}&period=5&page={i}' for
@@ -76,7 +77,18 @@ class Boos:
             }
             data['职位名'] = li.xpath('.//div[@class="job-title"]/span[@class="job-name"]/a/text()')[0]
             data['公司名'] = li.xpath('.//div[@class="company-text"]/h3/a/text()')[0]
-            data['发布日期'] = li.xpath('.//div[@class="job-title"]/span[@class="job-pub-time"]//text()')[0]
+
+            # cookie过期后，登录失效，导致不显示日期，要重新登陆
+            try:
+                data['发布日期'] = li.xpath('.//div[@class="job-title"]/span[@class="job-pub-time"]//text()')[0]
+            except IndexError:
+                self.browser.get('https://login.zhipin.com/?ka=header-login')
+                input('请登录BOOS平台后按回车继续：')
+                cookies = self.browser.get_cookies()
+                with open(self.path + '/cookie/BOOS_cookies.json', 'w') as f:
+                    f.write(json.dumps(cookies))
+                self.main()
+
             # 技术栈
             skill = li.xpath('./div/div[2]/div[1]//text()')
             skill_new = skill
@@ -109,10 +121,13 @@ class Boos:
             cookies = self.browser.get_cookies()
             with open(self.path+'/cookie/BOOS_cookies.json', 'w') as f:
                 f.write(json.dumps(cookies))
+                self.browser.close()
+                return
         with open(self.path+'/cookie/BOOS_cookies.json', "r") as fp:
+            # 注意添加cookie的时候一定要保证页面已经出现，然后在添加cookie访问下一个页面，空域会报无法添加cookie的错误
+            # 先请求页面，防止空域加载cookie抛出异常
             self.browser.get('https://www.zhipin.com/c101010100/e_104/?query=爬虫&period=5&ka=sel-city-101010100')
             cookies = json.load(fp)
-            # 注意添加cookie的时候一定要保证页面已经出现，然后在添加cookie访问下一个页面，空域会报无法添加cookie的错误
             for cookie in cookies:
                 self.browser.add_cookie(cookie)
         # 分页爬取
