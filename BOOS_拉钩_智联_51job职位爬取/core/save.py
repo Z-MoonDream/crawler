@@ -89,7 +89,7 @@ class Save:
                     # 发布于05月06日 将05中的0去掉
                     dic['发布日期'] = re.sub('于0', '于', dic['发布日期'])
                     if ':' in dic['发布日期']:
-                        dic['发布日期'] = re.sub('于\S*', f'{datetime.datetime.now().month}月'
+                        dic['发布日期'] = re.sub('于\S*', f'于{datetime.datetime.now().month}月'
                         f'{datetime.datetime.now().day}日', dic['发布日期'])
                     dict_new.append(dic)
 
